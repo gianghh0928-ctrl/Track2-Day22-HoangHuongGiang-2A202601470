@@ -117,8 +117,11 @@ def get_embeddings(provider: str = None):
 
     elif provider == "gemini":
         from langchain_google_genai import GoogleGenerativeAIEmbeddings
+        model_name = config.GEMINI_EMBEDDING_MODEL
+        if model_name in ("models/embedding-001", "embedding-001"):
+            model_name = "models/gemini-embedding-001"
         return GoogleGenerativeAIEmbeddings(
-            model=config.GEMINI_EMBEDDING_MODEL,
+            model=model_name,
             google_api_key=config.GOOGLE_API_KEY,
         )
 

@@ -1,0 +1,6 @@
+FAILED: gemini-1.5-flash -> Error calling model 'gemini-1.5-flash' (NOT_FOUND): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+FAILED: gemini-2.0-flash -> Error calling model 'gemini-2.0-flash' (NOT_FOUND): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+FAILED: gemini-3.1-flash-lite -> 'list' object has no attribute 'strip'
+FAILED: gemini-3.5-flash-lite -> 'list' object has no attribute 'strip'
+FAILED: gemini-flash-latest -> 'list' object has no attribute 'strip'
+FAILED: gemini-flash-lite-latest -> 'list' object has no attribute 'strip'
