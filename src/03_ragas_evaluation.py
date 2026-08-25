@@ -2,7 +2,7 @@
 Bước 3 — RAGAS Evaluation  (có checkpoint/resume)
 ===================================================
 NHIỆM VỤ:
-  1. Chạy 20 QA pairs qua CẢ 2 prompt version, lưu answers + contexts
+  1. Chạy 50 QA pairs qua CẢ 2 prompt version, lưu answers + contexts
      → Cache vào data/rag_cache_v1.json & rag_cache_v2.json (tự động skip nếu đã có)
   2. Tạo EvaluationDataset với các SingleTurnSample object
   3. Đánh giá với 4 RAGAS metrics: faithfulness, answer_relevancy,
